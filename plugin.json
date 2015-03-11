@@ -2,8 +2,8 @@
   "description" : "Collects statistical metrics from Couchbase server nodes.",
   "icon" : "icon.png",
 
-  "command_lua": "boundary-meter init.lua",
-  "postExtract_lua" : "",
+  "command": "boundary-meter init.lua",
+  "postExtract" : "",
 
   "metrics" : [
     "COUCHBASE_RAM_QUOTA_TOTAL",
